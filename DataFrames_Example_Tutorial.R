@@ -138,6 +138,7 @@ df
 
 mtcars$mpg[is.na(mtcars$mpg)] <- mean(mtcars$mpg)
 
+# Examples with DataFrames:
 Age <- c(27,25,26,28)
 Weight <- c(155,175,130,155)
 Sex <- c('M','M','F','O')
