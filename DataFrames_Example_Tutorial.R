@@ -46,7 +46,7 @@ v1
 letters
 v2 <- letters[1:10]
 v2
-df <- data.frame(col_name.1 = v1,col.name.2 = v2)
+df <- data.frame(col_name.1 = v1,First10Letters = v2)
 df
 # importing data and exporting data
 # writing to a CSV file:
@@ -141,7 +141,7 @@ mtcars$mpg[is.na(mtcars$mpg)] <- mean(mtcars$mpg)
 Age <- c(27,25,26,28)
 Weight <- c(155,175,130,155)
 Sex <- c('M','M','F','O')
-Names <- c('Mike','Jason','Silvia','Dell')
+Names <- c('Jim','John','Kristin','Dorthy')
 people <- data.frame(Names, Age = Age, Weight = Weight, Sex = Sex)
 people2 <- data.frame(Names, Age, Weight, Sex)
 people2
